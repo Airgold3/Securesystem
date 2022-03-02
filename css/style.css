@@ -1,0 +1,147 @@
+/*
+This file is part of SecureSystem.
+Copyright (C) 2021 Santiago Fernández, Airgold3 
+    SecureSystem is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    SecureSystem is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with SecureSystem.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+ body {
+	 font-family: "Nunito", sans-serif;
+	 font-size: 14px;
+	 height: 100vh;
+	 background-color: #262936;
+}
+ .wrapper {
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .wrapper .main-content {
+	 padding: 50px;
+	 width: 100%;
+	 max-width: 600px;
+	 min-width: 200px;
+	 background-color: #292c3a;
+	 border-radius: 10px;
+}
+ .wrapper .main-content h3 {
+	 text-align: center;
+	 color: #fff;
+	 margin-top: 0;
+	 font-size: 2.5em;
+}
+ .wrapper .main-content form {
+	 display: flex;
+	 flex-direction: column;
+}
+ .wrapper .main-content form .input-group {
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 15px;
+}
+ .wrapper .main-content form .input-group label {
+	 margin-left: 10px;
+	 margin-bottom: 10px;
+	 font-size: 0.99em;
+	 color: #777;
+	 font-weight: bold;
+}
+ .wrapper .main-content form .input-group input {
+	 padding: 15px;
+	 font-size: 1em;
+	 border-radius: 50px;
+	 border: unset;
+	 background-color: #303443;
+	 color: #eee;
+	 transition: background 0.5s;
+}
+ .wrapper .main-content form .input-group input:focus {
+	 outline: none;
+	 background-color: #3f5bd8;
+}
+ .wrapper .main-content form .input-group input:focus::placeholder {
+	 color: #eee;
+}
+ .wrapper .main-content form .input-group input[type=submit] {
+	 width: 150px;
+	 align-self: center;
+	 padding: 15px;
+	 border-radius: 50px;
+	 border: unset;
+	 background-color: #3f5bd8;
+	 color: #fff;
+	 font-size: 1.1em;
+	 margin-top: 20px;
+	 cursor: pointer;
+}
+ .wrapper .main-content form .input-group input[type=submit]:hover {
+	 background-color: #5772e9;
+}
+ .wrapper .main-content form .input-group input[type=submit]:focus {
+	 outline: none;
+}
+ .wrapper .main-content p {
+	 color: #fff;
+	 text-align: center;
+	 margin-top: 30px;
+}
+ .wrapper .main-content .social ul {
+	 display: flex;
+	 justify-content: center;
+	 margin-top: 30px;
+	 list-style: none;
+}
+ .wrapper .main-content .social ul a {
+	 text-decoration: none;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 color: #777;
+	 background-color: #262936;
+	 padding: 15px;
+	 border-radius: 50px;
+	 width: 150px;
+	 text-align: center;
+	 margin-left: 15px;
+	 transition: background 0.5s;
+}
+ .wrapper .main-content .social ul a:hover {
+	 background-color: #fff;
+}
+ .wrapper .main-content .social ul a span {
+	 margin-left: 5px;
+	 font-size: 1.1em;
+	 font-weight: bold;
+}
+.footer
+{
+  position: relative;
+  bottom: 140px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.securesystem
+{
+	color: #FFFF00;
+}
+.button{
+  color: #0087FF;
+}
+/*@media(max-width:762px){
+	.footer{
+		position: relative;
+		bottom: 500px;
+	}
+}*/
