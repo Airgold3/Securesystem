@@ -5,7 +5,7 @@ Securesystem es un sistema seguro de registro e inicio de sesión que cuenta con
 
 <div align="center">
   
-<img src="https://img.shields.io/badge/OS-Windows-10-00a1f1?style=for-the-badge&logo=windows"> <img src="https://img.shields.io/badge/PHP-8.0.13-787CB5?style=for-the-badge&logo=php"> <img src="https://img.shields.io/badge/Autor-airgold3-blue?logo=github&style=for-the-badge"> <img src="https://img.shields.io/badge/Licencia-GPLV3-red?style=for-the-badge&logo=gnu"> 
+<img src="https://img.shields.io/badge/OS-Windows 10-00a1f1?style=for-the-badge&logo=windows"> <img src="https://img.shields.io/badge/PHP-8.0.13-787CB5?style=for-the-badge&logo=php"> <img src="https://img.shields.io/badge/Autor-airgold3-blue?logo=github&style=for-the-badge"> <img src="https://img.shields.io/badge/Licencia-GPLV3-red?style=for-the-badge&logo=gnu"> 
 </div>
 
 ## Características Generales 📁
